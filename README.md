@@ -95,14 +95,14 @@ Informasi lebih lanjut terdapat pada [Yahoo finance Saham BCA](https://finance.y
 - Pengamatan hubungan antar fitur numerik dengan Fungsi _Pairplot_
 
   Bentuk distribusi ini dapat memberikan informassi tentang hubungan setiap variabel. Pola dalam plot ini dapat menunjukkan korelasi antara variabel. Pada Gambar 1, terlihat banyak fitur yang memiliki nilai sama.
-  ![cor plot](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/e8cb1b43-b028-43c1-8c2f-2e700894d746)
+  ![cor plot](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/e8cb1b43-b028-43c1-8c2f-2e700894d746)
   Gambar 1. Diagram _Pairplot_
 
 - Pengamatan berdasarkan _Heatmap_ korelasi antar fitur
 
   Berdasarkan Gambar 2, banyak fitur yang memiliki korelasi tinggi, sedangkan volume memiliki korelasi negatif.
 
-  ![corr](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/3e723bb3-3d78-4555-b18b-750a2eb3ef41)
+  ![corr](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/3e723bb3-3d78-4555-b18b-750a2eb3ef41)
   
   Gambar 2. Diagram _Heatmap_
 
@@ -110,7 +110,7 @@ Informasi lebih lanjut terdapat pada [Yahoo finance Saham BCA](https://finance.y
 
   Perhitungan _Moving Average (MA)_ dari volume perdagangan saham dengan menggunakan jendela (window) 20 hari terakhir. _MA_ volume perdagangan membantu dalam memahami tren atau pola pergerakan volume perdagangan saham selama periode waktu tertentu. Berdasarkan Gambar 3, dapat dilihat bahwa pola pada _Volume_ tidak seimbang.
 
-  ![Volume](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/ed18fc9f-f38f-4665-9092-87df187868f5)
+  ![Volume](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/ed18fc9f-f38f-4665-9092-87df187868f5)
   
   Gambar 3. Distribusi _Volume_ dan _Moving Average_
 
@@ -118,14 +118,14 @@ Informasi lebih lanjut terdapat pada [Yahoo finance Saham BCA](https://finance.y
 
   Berdasarkan hasil analisa dari Gambar 4, dapat disimpulkan bahwa fitur-fitur tersebut memiliki nilai yang tidak jauh berbeda.
 
-  ![Price](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/2520873c-8310-49ac-a009-081af9c1f14b)
+  ![Price](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/2520873c-8310-49ac-a009-081af9c1f14b)
   Gambar 4. Distribusi fitur
 
 - Analisa _Moving Average_ dan _Close Price_
 
   Penggunaan _Moving Average_ untuk memperhalus data harga penutupan saham selama 50 dan 200 hari terakhir. Dengan memvisualisasikan kedua _Moving Average_ ini bersama harga penutupan sebenarnya, tren jangka pendek dan jangka panjang dalam harga saham BCA dapat terlihat. Berdasarkan analisa dari Gambar 5, dapat dilihat grafik dari harga penutupan selalu naik walaupun tidak stabil.
 
-  ![Close](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/e7784995-8ad6-495d-8d38-f2922f20ab2a)
+  ![Close](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/e7784995-8ad6-495d-8d38-f2922f20ab2a)
   Gambar 5. Distribusi _Moving Average_ dan _Close Price_
 
 ### Hasil Analisa
@@ -144,7 +144,7 @@ Berdasarkan hasil pengamatan pola dari Gambar 5 terdapat beberapa pola dalam tre
 
 Pola _bullish rectangle_ termasuk pola berkelanjutan ketika sedang terjadi _uptrend_ atau harga naik. Pola ini berupa pola yang menunjukkan pola konsolidasi sebelum tren naik berlanjut. Biasanya, pergerakan harga berada di range yang sempit dengan jarak garis _support_ dan _resistance_ yang sama jaraknya. _Open entry buy_ jika harga sudah break level resistance sebelumnya.
 
-![image](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/0e8944f8-26a4-4076-8cb3-647067bd412b)
+![image](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/0e8944f8-26a4-4076-8cb3-647067bd412b)
 
 Gambar 6. Pola _Bullish Rectangle_
 
@@ -156,7 +156,7 @@ Pada grafik _ascending triangle_ ini, garis bagian atas yang terbentuk cenderung
 
 _Ascending_ ini terbentuk sebagai pola yang bergerak ke bagian atas membentuk segitiga atau pola _chart bullish_. Dengan demikian, pola chart ini mudah diidentifikasi sehingga dapat dipakai sebagai sinyal entri.
 
-![image](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/6ad931a9-ba65-4cff-90b0-369474057faf)
+![image](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/6ad931a9-ba65-4cff-90b0-369474057faf)
 
 Gambar 7. Pola _Ascending Triangle_
 
@@ -306,7 +306,7 @@ Dari hasil perbandingan _MSE_ antara kedua model, terbukti bahwa model pertama l
 
 Berikut adalah hasil prediksi harga saham BCA 30 hari kedepan mulai dari tanggal 21 Februari 2024 s/d 21 maret 2024.
 
-![image](https://github.com/maybeitsai/BCA-Stock-Forecasting/assets/130530985/823ca839-4dce-46ea-a523-22301e42f634)
+![image](https://github.com/harrymardika/BCA-Stock-Forecasting/assets/130530985/823ca839-4dce-46ea-a523-22301e42f634)
 
 Gambar 8. Prediksi harga saham BCA 30 hari kedepan
 
